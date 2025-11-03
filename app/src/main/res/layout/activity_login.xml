@@ -11,6 +11,7 @@
         android:layout_height="150dip"
         android:id="@+id/titleLoginTextView"
         android:textSize="42sp"
+        android:layout_marginBottom="24dip"
         android:text="@string/login_welcome"
         android:gravity="center"
         android:layout_margin="16dip"
@@ -19,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_height="85dp"
         android:hint="@string/username"
         android:inputType="text"
         app:layout_constraintTop_toBottomOf="@+id/titleLoginTextView"
