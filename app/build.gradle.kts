@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.hw04_gymlog_v300"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.hw04_gymlog_v300"
@@ -49,7 +49,7 @@ dependencies {
     implementation(libs.room.runtime)
     annotationProcessor( libs.room.compiler)
 
-    val room_version = "2.8.3"
+    val room_version = "2.6.1"
 
     implementation("androidx.room:room-runtime:$room_version")
 
